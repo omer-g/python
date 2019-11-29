@@ -32,6 +32,18 @@
       ]
     },
     {
+      "slug": "raindrops",
+      "uuid": "82d82e32-cb30-4119-8862-d019563dd1e3",
+      "core": true,
+      "unlocked_by": null,
+      "difficulty": 2,
+      "topics": [
+        "conditionals",
+        "integers",
+        "text_formatting"
+      ]
+    },
+    {
       "slug": "high-scores",
       "uuid": "574d6323-5ff5-4019-9ebe-0067daafba13",
       "core": true,
@@ -39,7 +51,7 @@
       "difficulty": 1,
       "topics": [
         "classes",
-        "control_flow_if_else_statements",
+        "conditionals",
         "sequences",
         "text_formatting"
       ]
@@ -73,14 +85,6 @@
         "sets",
         "strings"
       ]
-    },
-    {
-      "slug": "raindrops",
-      "uuid": "82d82e32-cb30-4119-8862-d019563dd1e3",
-      "core": true,
-      "unlocked_by": null,
-      "difficulty": 2,
-      "topics": null
     },
     {
       "slug": "isogram",
@@ -273,7 +277,7 @@
       "slug": "pangram",
       "uuid": "bebf7ae6-1c35-48bc-926b-e053a975eb10",
       "core": false,
-      "unlocked_by": "hello-world",
+      "unlocked_by": "two-fer",
       "difficulty": 1,
       "topics": [
         "algorithms",
@@ -381,7 +385,7 @@
       "slug": "armstrong-numbers",
       "uuid": "e9b0defc-dac5-11e7-9296-cec278b6b50a",
       "core": false,
-      "unlocked_by": "two-fer",
+      "unlocked_by": "raindrops",
       "difficulty": 1,
       "topics": [
         "algorithms",
@@ -694,7 +698,7 @@
       "slug": "robot-name",
       "uuid": "bf30b17f-6b71-4bb5-815a-88f8181b89ae",
       "core": false,
-      "unlocked_by": "hello-world",
+      "unlocked_by": "two-fer",
       "difficulty": 1,
       "topics": [
         "pattern_matching",
@@ -798,7 +802,7 @@
       ]
     },
     {
-      "slug": "bracket-push",
+      "slug": "matching-brackets",
       "uuid": "45229a7c-6703-4240-8287-16645881a043",
       "core": false,
       "unlocked_by": "isogram",
@@ -1447,6 +1451,38 @@
       ]
     },
     {
+      "slug": "resistor-color",
+      "uuid": "d17bee9c-e803-4745-85ea-864f255fb04e",
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 1,
+      "topics": [
+        "arrays"
+      ]
+    },
+    {
+      "slug": "resistor-color-duo",
+      "uuid": "089f06a6-0759-479c-8c00-d699525a1e22",
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 1,
+      "topics": [
+        "arrays"
+      ]
+    },
+    {
+      "slug": "knapsack",
+      "uuid": "b0301d0b-d97a-4043-bd82-ba1edf8c1b16",
+      "core": false,
+      "unlocked_by": "clock",
+      "difficulty": 5,
+      "topics": [
+        "algorithms",
+        "lists",
+        "loops"
+      ]
+    },
+    {
       "slug": "accumulate",
       "uuid": "e7351e8e-d3ff-4621-b818-cd55cf05bffd",
       "core": false,
@@ -1544,38 +1580,6 @@
       "difficulty": 0,
       "topics": null,
       "deprecated": true
-    },
-    {
-      "slug": "resistor-color",
-      "uuid": "d17bee9c-e803-4745-85ea-864f255fb04e",
-      "core": false,
-      "unlocked_by": null,
-      "difficulty": 1,
-      "topics": [
-        "arrays"
-      ]
-    },
-    {
-      "slug": "resistor-colors",
-      "uuid": "089f06a6-0759-479c-8c00-d699525a1e22",
-      "core": false,
-      "unlocked_by": null,
-      "difficulty": 1,
-      "topics": [
-        "arrays"
-      ]
-    },
-    {
-      "slug": "knapsack",
-      "uuid": "b0301d0b-d97a-4043-bd82-ba1edf8c1b16",
-      "core": false,
-      "unlocked_by": "clock",
-      "difficulty": 5,
-      "topics": [
-        "algorithms",
-        "lists",
-        "loops"
-      ]
     }
   ]
 }
